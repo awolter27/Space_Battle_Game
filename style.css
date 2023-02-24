@@ -1,0 +1,77 @@
+body {
+    background-color: rgba(136, 136, 6, 0.121);
+}
+
+h1 {
+    background-color: black;
+    border: black solid 2px;
+    color: yellow;
+    font-size: 60px;
+    padding: 40px;
+    text-align: center;
+}
+
+.h3 {
+    display: table;
+    margin: auto;
+}
+
+h3 {
+    background-color: black;
+    color: yellow;
+    display: flex;
+    font-size: 27px;
+    justify-content: center;
+    margin: 1px;
+    padding: 2px;
+    width: 450px;
+}
+
+.first-button-box {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.second-button-box {
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.attack-next-ship {
+    background-color: green;
+    border: black solid 1px;
+    color: white;
+    display: inline-block;
+}
+
+.retreat {
+    background-color: red;
+    border: black solid 1px;
+    color: white;
+    display: none;
+}
+
+.restart {
+    background-color: blue;
+    border: black solid 1px;
+    color: white;
+}
+
+img {
+    height: 400px; 
+    width: 600px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
